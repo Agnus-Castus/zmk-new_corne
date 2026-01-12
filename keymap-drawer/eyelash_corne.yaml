@@ -48,7 +48,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - FN
-  - {t: '$$mdi:apple-keyboard-caps$$', h: CMKDH}
+  - {t: '''', s: '"'}
   SYMNUM:
   - Sft+~
   - Sft+!
