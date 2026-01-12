@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  CMKDH:
+  QWERTY:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
   - W
@@ -43,7 +43,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: CMKDH}
+  - $$mdi:backspace-reverse-outline$$
   - SYMNUM
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -113,18 +113,18 @@ layers:
   - '&soft_off'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - LGUI F6
-  - LALT F7
-  - LCTRL F8
-  - LSHIFT F9
+  - LGUI
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - F10
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
-  - RSHIFT DOWN
-  - RCTRL UP
-  - RALT RIGHT
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - LGUI
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
