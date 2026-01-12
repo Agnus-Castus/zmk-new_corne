@@ -137,7 +137,7 @@
                      &mod_kp 0 DELETE  &mo 1  &kp SPACE                                &kp ENTER  &mo 2  &kp SQT
             >;
 
-            sensor-bindings = <&none>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_2 {
