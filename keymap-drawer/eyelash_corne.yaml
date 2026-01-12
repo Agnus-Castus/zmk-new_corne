@@ -43,7 +43,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: MOUSE}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: CMKDH}
   - SYMNUM
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -92,7 +92,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: MOUSE}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: CMKDH}
   - SYMNUM
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -196,55 +196,6 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  MOUSE:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB2'
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - '&mkp MB1'
-  - PRINTSCREEN
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:mouse-scroll-wheel$$
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP NUMLOCK
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:pan-right$$
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:pan-up$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB1'
-  - {t: KP 4, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: KP 5, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: KP 6, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: KP 0, h: LGUI}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:pan-left$$
-  - '&mkp MB4'
-  - $$mdi:mouse-scroll-wheel$$
-  - '&mkp MB5'
-  - $$mdi:pan-down$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mkp MB2'
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: RGB BRI, type: held}
-  - {type: held alternate}
-  - RGB EFF
-  - RGB EFR
-  - {type: held alternate}
-  - RGB BRD
   WM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Sft+Gui+1, s: Sft+Gui+!}
@@ -289,8 +240,8 @@ layers:
   - RGB COLOR HSB(170,100,50)
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
