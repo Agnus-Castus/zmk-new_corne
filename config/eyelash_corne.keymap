@@ -140,7 +140,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_2 {
+        layer_1 {
             display-name = "SYMNUM";
             bindings = <
 &kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                    &trans          &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp PIPE      &kp BSLH      &none
@@ -150,7 +150,7 @@
             >;
         };
 
-        layer_3 {
+        layer_2 {
             display-name = "FN";
             bindings = <
 &none  &kp F1       &kp F2       &kp F3        &kp F4         &kp F5                      &none         &kp C_MUTE    &kp C_VOL_DN     &kp C_VOL_UP  &kp C_PLAY_PAUSE  &soft_off     &none
@@ -160,7 +160,7 @@
             >;
         };
 
-        layer_5 {
+        layer_3 {
             display-name = "WM";
             bindings = <
 &none  &kp LS(LG(N1))                    &kp LS(LG(N2))                     &kp LS(LG(N3))                     &kp LS(LG(N4))                     &kp LS(LG(N5))                                     &none         &kp LS(LG(N6))                   &kp LS(LG(N7))                   &kp LS(LG(N8))                    &kp LS(LG(N9))                     &kp LS(LG(N0))                     &none
