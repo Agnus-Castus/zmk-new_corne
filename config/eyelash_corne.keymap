@@ -156,7 +156,7 @@
 &none  &kp LGUI     &kp F2       &kp F3        &kp F4         &kp F5                      &none         &kp C_MUTE    &kp C_VOL_DN     &kp C_VOL_UP  &kp DEL         &kp BSPC      &none
 &none  &kp LGUI     &kp LALT     &kp LCTRL     &kp LSHIFT     &kp F10              &none  &none  &none  &kp LEFT      &kp RSHIFT       &kp RCTRL     &kp RALT        &kp LGUI      &none
 &none  &kp F11      &kp F12      &none         &none          &bt BT_CLR  &none           &none         &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4  &none
-                                 &LALT         &trans         &trans                                    &trans        &trans           &trans
+                                 &kp LALT      &trans         &trans                                    &trans        &trans           &trans
             >;
         };
 
